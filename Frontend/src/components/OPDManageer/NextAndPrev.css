@@ -1,0 +1,16 @@
+.NextAndPrev{
+    width:100px;
+    padding:5px;
+    color: black;
+    background-color: #AFD9FF;
+    border:none;
+    border-radius: 10px;
+    font-weight: 600;
+    margin:20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.NextAndPrev:hover {
+    background-color: #0056b3;
+    color:white;
+}

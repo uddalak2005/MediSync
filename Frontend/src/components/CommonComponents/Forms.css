@@ -1,0 +1,16 @@
+
+.formArea{
+    height:75vh;
+    width:73vw;
+    background-color:white;
+    border-radius:10px;
+    padding: 20px;
+}
+
+.rows{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    margin-bottom:30px;
+}

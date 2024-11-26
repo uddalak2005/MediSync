@@ -1,0 +1,12 @@
+CategoryA: 0-10 days
+CategoryB: 11-20 days
+CategoryC: 21-30 days
+CategoryD: 31-40 days
+CategoryE: 41-50 days
+CategoryF: 51-60 days
+CategoryG: 61-70 days
+CategoryH: 71-80 days
+CategoryI: 81-90 days
+CategoryJ: 91-100 days
+CategoryK: 101-110 days
+.....

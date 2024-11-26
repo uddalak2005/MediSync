@@ -1,0 +1,43 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+:root {
+    /* fonts */
+    --font-lexend-deca: "Lexend Deca";
+
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-lightskyblue-100: #afd9ff;
+    --color-black: #000;
+    --color-darkblue: #000f99;
+    --color-mediumslateblue: #3342cc;
+    --color-dimgray: #616161;
+
+    /* Gaps */
+    --gap-14xl: 33px;
+
+    /* Paddings */
+    --padding-sm: 14px;
+    --padding-smi: 13px;
+    --padding-xs: 12px;
+
+    /* Border radiuses */
+    --br-lg: 18px;
+}
+

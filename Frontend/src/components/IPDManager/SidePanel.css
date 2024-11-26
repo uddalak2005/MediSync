@@ -1,0 +1,188 @@
+.SidePanel{
+    height:100vh;
+    width:20vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #ffffff;
+}
+.monitoring{
+    transform: translateY(25px);
+    height:55vh;
+    width:37vh;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: #AFD9FF;
+}
+.logo{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.contents{
+    margin-top: 10px;
+    margin-right: 20vh;
+}
+/* General Styles */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Light background color for contrast */
+}
+
+/* Form Container */
+.search-form {
+    max-width: 50rem; /* 448px */
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* Label */
+.search-label {
+    display: none; /* sr-only equivalent for screen readers */
+}
+
+/* Search Container */
+.search-container {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+
+}
+.SearchByDate{
+    width: 33vh;
+}
+/* Search Input */
+.search-input {
+    width: 100%;
+    height: inherit;
+    padding: 1rem;
+    /* Adjusted for icon */
+    font-size: 0.875rem; /* Small text */
+    color: #1f2937; /* Gray 900 */
+    border: 1px solid #d1d5db; /* Gray 300 */
+    border-radius: 0.5rem; /* Rounded corners */
+    background-color: #f9fafb; /* Gray 50 */
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-input:focus {
+    border-color: #3b82f6; /* Blue 500 */
+    box-shadow: 0 0 0 1px #3b82f6; /* Blue 500 focus ring */
+}
+
+/* Search Button */
+.search-button {
+    position: absolute;
+    right: 8px; /* Adjusted for positioning */
+    bottom: 15px;
+
+    background-color: #1d4ed8; /* Blue 700 */
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding:  4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-button:hover {
+    background-color: #1e40af; /* Blue 800 */
+}
+
+.search-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #1e40af; /* Blue 800 focus ring */
+}
+
+
+
+/* Container for the checkboxes */
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4.75rem; /* Space between checkbox items */
+
+}
+
+/* Style for each checkbox item */
+.checkbox-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Checkbox styles */
+.checkbox {
+    width: 1rem; /* 16px */
+    height: 1rem; /* 16px */
+    color: #2563eb; /* Tailwind's blue-600 */
+    background-color: #f3f4f6; /* Tailwind's gray-100 */
+    border: 1px solid #d1d5db; /* Tailwind's gray-300 */
+    border-radius: 0.25rem; /* Tailwind's rounded */
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.checkbox:checked {
+    background-color: #2563eb; /* Tailwind's blue-600 when checked */
+    border-color: #2563eb; /* Border color when checked */
+}
+
+.checkbox:focus {
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3); /* Tailwind's blue-500 focus ring */
+}
+
+/* Label styles */
+.checkbox-label {
+    margin-left: 0.5rem; /* Tailwind's ms-2 */
+    font-size: 0.875rem; /* Tailwind's text-sm */
+    font-weight: 500; /* Tailwind's font-medium */
+    color: #000000; /* Tailwind's gray-900 */
+
+}
+.checkbox:checked {
+    background-color: #3b82f6; /* Tailwind's blue-600 when checked */
+    border-color: #3b82f6; /* Border color when checked */
+}
+.counter-1{
+    transform: translateY(20px);
+    height:12vh;
+    width:37vh;
+    margin: 15px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    background-color: #AFD9FF;
+}
+.counter-2{
+
+    transform: translateY(15px);
+    height:12vh;
+    width:37vh;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    background-color: #AFD9FF;
+}
+
+

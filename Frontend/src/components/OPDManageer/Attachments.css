@@ -1,0 +1,134 @@
+.attachment-box {
+    width: 65vw;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.attachment-list {
+    margin-top: 20px;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    height:40vh;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.attachment-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    flex-direction: column;
+    width:150px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.attachment-card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.attachment-card div {
+    font-size: 12px;
+    font-weight: bold;
+    width: 130px;
+    overflow-wrap: break-word; /* add this line */
+    word-break: break-all; /* add this line */
+    text-align: center;
+    padding:10px;
+
+}
+
+.attachment-card button {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.attachment-card button:hover {
+    color: #aaa;
+}
+
+.attachment-box .default-text {
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.uploadButton{
+    background-color: #AFD9FF;
+}
+
+.attachment-box input[type="file"] {
+    /* Hide the default file input button */
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.attachment-box .custom-upload-button {
+    /* Style the custom upload button */
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; /* Add this line */
+}
+
+.attachment-box .custom-upload-button:hover {
+    background-color: #3e8e41;
+}
+
+.attachment-box .custom-upload-button {
+    /* Add this property to ensure the button is visible */
+    display: block;
+    width: 100%; /* Optional: set the width to 100% if you want the button to take up the full width */
+}
+.attachment-box .custom-upload-button {
+    /* Reduce the height and width of the button */
+    height: 25px;
+    width: 75px;
+}
+
+.attachments{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    width:80%;
+}
+
+.defaultUpload{
+    height:100%;
+    /*width: 65vw;*/
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.patientDetailsForAttachments{
+    padding-left:50px;
+    padding-right:50px;
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+}

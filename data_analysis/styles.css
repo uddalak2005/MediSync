@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+canvas {
+    max-width: 1200px;  /* Increased maximum width */
+    max-height: 800px;  /* Increased maximum height */
+    width: 100%;        /* Ensures the canvas scales with the screen size */
+    height: auto;       /* Maintains aspect ratio */
+    margin: 0 auto 20px auto;  /* Centers the canvas and adds space below */
+}
+
+#prediction {
+    font-size: 1.2em;   /* Slightly larger font for visibility */
+    margin-top: 20px;   /* Space above the prediction text */
+    color: #555;        /* Softer color for the text */
+}

@@ -1,0 +1,43 @@
+CategoryA:
+    Description: Shortest stay duration.
+    Example: 0-5 days stay in the hospital. Could indicate minor cases that require minimal hospitalization.
+
+CategoryB:
+    Description: Short stay duration.
+    Example: 6-10 days stay. Could represent slightly more complicated cases that need short-term care.
+
+CategoryC:
+    Description: Moderate stay duration.
+    Example: 11-15 days stay. Might indicate moderate health conditions requiring a longer observation period.
+
+CategoryD:
+    Description: Long stay duration.
+    Example: 16-20 days stay. Could represent cases needing extended medical treatment or recovery.
+
+CategoryE:
+    Description: Extended stay duration.
+    Example: 21-25 days stay. Likely for patients with more severe health issues requiring continuous care.
+
+CategoryF:
+    Description: Very long stay duration.
+    Example: 26-30 days stay. Could indicate serious health conditions or complications during recovery.
+
+CategoryG:
+    Description: Prolonged stay duration.
+    Example: 31-35 days stay. Typically for cases needing extensive treatment and rehabilitation.
+
+CategoryH:
+    Description: Extremely long stay duration.
+    Example: 36-40 days stay. Could involve major surgeries or chronic conditions requiring long-term care.
+
+CategoryI:
+    Description: Critical or complex cases with long hospitalization.
+    Example: 41-45 days stay. May represent critical conditions, intensive care, or ongoing complications.
+
+CategoryJ:
+    Description: Very critical cases with very long hospitalization.
+    Example: 46-50 days stay. Likely includes cases with severe health conditions and complex recovery processes.
+
+CategoryK:
+    Description: Longest stay duration or the most severe cases.
+    Example: Over 50 days stay. Could represent the most severe or chronic cases with significant health challenges.

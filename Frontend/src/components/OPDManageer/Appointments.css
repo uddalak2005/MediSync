@@ -1,0 +1,65 @@
+.accordion-item {
+    width: 16vw;
+    margin:20px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top:50px;
+    background-color: #AFD9FF;
+}
+
+.accordion-button {
+    width: 16vw;
+    padding: 10px;
+    /*padding-left: 25px;*/
+    /*padding-right: 25px;*/
+    background-color: #AFD9FF;
+    color: black;
+    font-weight: 600;
+    border: none;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: #0056b3;
+    color:white;
+}
+
+.accordion-icon {
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.accordion-content {
+    width:15vw;
+    padding: 10px;
+    background-color: #F3F4FF;
+    display: none;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content.open {
+    display: block;
+
+}
+
+.AppointmentOptions{
+    font-size: 14px;
+    padding: 15px;
+}
+.AppointmentOptions li{
+    padding: 3px;
+}

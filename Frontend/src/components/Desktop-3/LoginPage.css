@@ -1,0 +1,131 @@
+.loginBackGround{
+    background-image: url("../../assets/Picsart_24-08-16_17-07-11-706.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blueBox{
+    background-color: #5162FF;
+    height:180px;
+    width: 50vw;
+    position:absolute;
+    top: 200px;
+}
+
+.LoginContainer{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Layer1{
+    height: 80vh;
+    width: 30vw;
+    background: white;
+    border-radius: 30px;
+}
+
+.blueLine{
+    background-color: #5162FF;
+    position: absolute;
+    height: 200px;
+    width: 10px;
+    top: 120px;
+    z-index: 2;
+}
+
+
+.Layer2{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main{
+    /*height: 70vh;*/
+    height: 80vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    color:black;
+    width: 80%;
+    flex-direction: column;
+}
+.userId{
+    border-bottom: 1px solid #616161;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+
+.LoginInput{
+    border:none;
+    font-size: 18px;
+    width : 350px;
+}
+
+input:focus {
+    outline: none; /* Remove outline on focus */
+    border: none;
+    box-shadow: none/* Optional: Change border color on focus */
+}
+
+.pass{
+    border-bottom: 1px solid #616161;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #5162FF;
+    color: white;
+    border-style: none;
+    margin-top: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.submit:hover{
+    background-color:#7b9ae9;
+
+}
+
+.Loginheader{
+    color:#616161;
+    font-size : 32px;
+}
+
+.forgetPassword{  
+    position:absolute;
+    left:45%;
+    text-decoration: none;
+    
+}

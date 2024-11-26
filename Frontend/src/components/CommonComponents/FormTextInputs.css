@@ -1,0 +1,18 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    width: 230px;
+}
+
+.formTextInput{
+    font-weight: 600;
+    font-size: 12px;
+    padding: 12px;
+    width:200px;
+    border:none
+}
+
+.formTextInput:focus{
+    outline: none;
+}

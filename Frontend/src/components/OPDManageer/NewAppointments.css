@@ -1,0 +1,55 @@
+.NewRegOptions li{
+    font-size: 18px;
+    font-weight: 600;
+    padding:5px;
+    width:300px;
+}
+
+.NewRegOptions .active {
+    background: #ffffff;
+    border-bottom: 5px solid #00068D;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding:5px;
+    width:300px;
+}
+
+.NewRegOptions{
+    width:600px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left:20px;
+}
+
+.cancel{
+    padding:10px;
+    color: black;
+    background-color: #ffffff;
+    border:none;
+    border-radius: 15px;
+    font-weight: 600;
+    margin:20px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.cancel:hover{
+    background-color: #ffa6a6;
+}
+
+.update{
+    padding:10px;
+    color: black;
+    background-color: #AFD9FF;
+    border:none;
+    border-radius: 15px;
+    font-weight: 600;
+    margin:20px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.update:hover{
+    background-color: #81ff6d;
+}
